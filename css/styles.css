@@ -1,0 +1,170 @@
+body{
+  font-family: 'Ubuntu';
+  color: #28215b;
+}
+
+h1, h2, h3, h4, h5 ,h6{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+p{
+  font-size: 1rem;
+  font-family: "Ubuntu";
+  line-height: 1;
+  color: #585858;
+}
+
+
+hr{
+  border: dotted 6px #585858;
+  border-bottom: none;
+  width: 80%;
+}
+
+
+.container-fluid{
+  padding: 4% 15% 4%;
+}
+
+/* Title Section */
+
+#title{
+  color: #fff;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.logo-area{
+  padding: 40px 5px 10px;
+}
+
+.logo{
+  width: 80%
+}
+
+
+
+/* Mentor Cards */
+
+#mentors{
+  padding: 10px;
+  text-align: center;
+}
+
+.tagline-box{
+  padding: 3% 10%;
+}
+
+.tagline{
+  font-size: 3rem;
+}
+
+.bio{
+  text-align: left;
+}
+
+.card-body{
+  text-align: left;
+  color: #585858;
+  font-size: 1rem;
+}
+
+.card-column{
+  padding: 3% 3%;
+}
+
+.profile-image{
+  width: 40%;
+  border-radius: 50%;
+  padding-bottom: 2rem;
+}
+
+.btn-custom {background-image: linear-gradient(to right, #28215b 0%, #000000  51%, #28215b  100%)}
+.btn-custom {
+  width: 100%;
+  padding: 5px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Sign Up  */
+
+.navbar{
+  padding: 0;
+}
+
+.signup{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.signup-msg{
+  color: #000000;
+  padding-top: 2px;
+}
+
+.btn-signup {background-image: linear-gradient(to right, #28215b 0%, #000000  51%, #34315e  100%)}
+.btn-signup {
+  width: 100%;
+  padding: 5px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  border: none;
+}
+
+.btn-signup:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer */
+
+#footer{
+  text-align: center;
+  padding: 2% 15%;
+}
+
+.socials{
+  margin: 20px 10px;
+}
+
+.social-icons{
+  color: #28215b;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .image{
+    transform: rotate(0);
+    position: static;
+  }
+}
